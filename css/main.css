@@ -1,0 +1,213 @@
+/* colors
+	light blue #14A6CC
+	bright green #68FF13
+Colors;
+	Black         #000000
+	Darker Gray   #222222
+	Dark Gray	  #333333
+	Gray          #444444
+	Light Gray    #eeeeee
+	Light Blue    #00c0ff
+	Dark Blue     #0090b
+
+	assignment to do lists - save and resize images, 
+	make the navigation usable by adding checkpoints
+*/
+
+
+
+/* ==========================================================================
+   Author's custom styles
+   ========================================================================== */
+body {
+    padding-bottom: 20px;
+}
+
+nav { 
+  position: relative;
+  z-index: 2; 
+}
+
+.nav-z {
+	width: 100%;
+	margin-bottom: 0px;
+}
+
+.roadIcon {
+	padding-left: 5px;
+}
+
+
+.die-btn {
+	padding: 10px 22px;
+}
+
+/* ======= Jumbotron =======*/
+.jumbotron {
+	position: relative;
+	background-image: url('../img/blue_bike.jpg');
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+	width:100%;
+	height: 600px;
+}
+
+/*
+.jumbotron  {
+position: relative;
+background-image: url("../img/big_bike.jpg") no-repeat center center;
+width:100%;
+height: 100%;
+background-size: 100% 100%;
+} */
+
+.jumbotron .container h1 {
+	text-align: center;
+	color: white;
+}
+
+.jumbotron .container .jumboType {
+	color: white;
+	text-align: center;
+}
+
+.rideOrDie {
+	width: 350px;
+	margin: 20% auto;
+	padding-left: 90px;
+}
+
+.or {
+	color: white;
+}
+
+/* ====== Accordian section =======*/
+
+.accord-icon {
+	width: 50px;
+	margin: 5px auto;
+	padding-bottom: 0px;
+}
+
+.person-icon {
+	font-size: 4em;
+}
+
+.accord-title {
+	padding: 10px 0px;
+	text-align: center;
+}
+
+.accordHeader {
+	text-align: center;
+}
+
+.accordHov:hover {
+	background-color: #eeeeee;
+}
+
+
+/* ====== thumbnail section =======*/
+.store-header{
+	text-align: center;
+	padding-top: 30px;
+}
+
+.thumb-border{
+	border: none;
+	padding-top: 20px;
+}
+
+.thumb-box{
+	margin-bottom: 50px;
+}
+
+
+/* ====== carousel section =======*/
+
+.features-title {
+	text-align: center;
+}
+
+.carousel-inner {
+	max-width: 100%;
+}
+
+.carousel-inner .item img {
+      min-width: 100%; /*Set width to 100% */
+  } 
+
+/* ====== Form section =======*/
+
+.form-box {
+	margin-top: 0px;
+}
+ .contact-icon {
+ 	margin-top: 90px;
+ }
+
+.form-control:focus {
+	box-shadow: 2px 2px 1px black;
+}
+
+.write-something {
+	height: 150px;
+}
+
+/*===== Footer Section ===== */
+ul.footer-list {
+	list-style-type: none;
+	padding-left: 25%;
+}
+
+ul.footer-list li {
+	padding: 15px;
+}
+
+.company {
+	width: 100%;
+	margin: auto;
+	padding-left: 45%;
+}
+
+/*============ my code I started on my own to play around with Bootstrap===*/
+/*div.jumbotron {
+	background-image: url('https://c1.staticflickr.com/7/6153/6255310902_0d79fcd9c2_b.jpg');
+	background-size: cover;
+	background-repeat: no-repeat;
+} */
+
+/*.jumboType {
+	color: white;
+}
+
+.carouselFrame {
+	height: 400px;
+}
+
+.carouselPic {
+	width: 100%;
+	height: 300px;
+}
+
+.searchIcon {
+	padding-right: 5px;
+}
+
+.roadIcon {
+	padding-left: 5px;
+}*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
